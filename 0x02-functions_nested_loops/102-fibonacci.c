@@ -11,7 +11,7 @@ int main(void)
 	long int v1, v2, result;
 
 	v1 = v2 = 1;
-	for (i = 1; i <= 50; i++)
+	for (i = 1; i < 50; i++)
 	{
 		result = v1 + v2;
 		v1 = v2;
