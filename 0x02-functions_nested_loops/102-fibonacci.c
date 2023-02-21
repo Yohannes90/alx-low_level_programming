@@ -10,14 +10,15 @@ int main(void)
 	int i;
 	long int v1, v2, result;
 
-	v1 = v2 = 1;
-	for (i = 1; i < 50; i++)
+	v1 = 0;
+	v2 = 1;
+	for (i = 0; i < 50; i++)
 	{
 		result = v1 + v2;
 		v1 = v2;
 		v2 = result;
-		printf("%lu", result);
-		if (i < 50)
+		printf("%lu", v2);
+		if (i < 49)
 		{
 			printf(", ");
 		}
