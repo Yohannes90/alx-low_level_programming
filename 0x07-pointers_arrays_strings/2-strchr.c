@@ -17,7 +17,7 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			occerence = &s[i];
-			return occerence;
+			return (occerence);
 		}
 	}
 
