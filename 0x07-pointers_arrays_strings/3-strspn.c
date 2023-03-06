@@ -21,8 +21,9 @@ unsigned int _strspn(char *s, char *accept)
 				amount++;
 				break;
 			}
+			if (accept[i + 1] == '\0')
+				return (++amount);
 		}
 	}
-	amount++;
-	return (amount);
+	return (++amount);
 }
