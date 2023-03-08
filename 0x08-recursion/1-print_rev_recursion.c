@@ -15,5 +15,12 @@ void _print_rev_recursion(char *s)
 	s++;
 	_print_rev_recursion(s);
 	s--;
+	if (*s == 'n')
+	{
+		if (*(s - 1) == 92)
+		{
+			return;
+		}
+	}
 	_putchar(*s);
 }
