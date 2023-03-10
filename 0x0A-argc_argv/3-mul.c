@@ -6,7 +6,7 @@
  * @argc: argument count
  * @argv: argument vector (multiples)
  *
- * Return: Always 0.
+ * Return: 0 if successful, or 1 if doesn't recive two proper arguments
  */
 int main(int argc, char *argv[])
 {
@@ -16,10 +16,11 @@ int main(int argc, char *argv[])
 	{
 		product = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", product);
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
+		return (1);
 	}
-	return (0);
 }
