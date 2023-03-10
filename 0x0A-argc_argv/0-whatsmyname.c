@@ -3,7 +3,7 @@
 /**
  * main - print programs own name
  * @argc: argument count
- * @ardv: argument vector(pointer to set of arguments)
+ * @argv: argument vector(pointer to set of arguments)
  *
  * Return: Always 0.
  */
