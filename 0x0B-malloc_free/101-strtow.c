@@ -9,7 +9,7 @@
  */
 char **strtow(char *str)
 {
-	*char ptr = NULL;
+	char **ptr = NULL;
 	int len, word;
 
 	len = word = 0;
@@ -19,11 +19,11 @@ char **strtow(char *str)
 	}
 	while (str[len++])
 	{
-		if (str[i] == ' ')
+		if (str[word] == ' ')
 		{
 			word++;
 		}
 	}
-	ptr = str;
+	*ptr = str;
 	return (ptr);
 }
