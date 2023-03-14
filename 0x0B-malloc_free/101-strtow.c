@@ -10,20 +10,20 @@
 char **strtow(char *str)
 {
 	*char ptr = NULL;
-	int i, j, len word;
+	int len, word;
 
-	i = word = 0;
+	len = word = 0;
 	if (str == NULL || str == "")
 	{
 		return (NULL);
 	}
-	while (str[i++])
+	while (str[len++])
 	{
 		if (str[i] == ' ')
 		{
 			word++;
 		}
 	}
-
+	ptr = str;
 	return (ptr);
 }
