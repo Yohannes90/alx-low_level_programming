@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_dog - frees dogs 
+ * free_dog - frees dogs
  * @d: pointer to dogs to be freed
  *
  * Return: void
