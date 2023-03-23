@@ -4,7 +4,7 @@
 /**
  * main - prints its own opcodes
  * @argc: argument count
- * #argv: argument vector
+ * @argv: argument vector
  *
  * Return: Always 0.
  */
