@@ -2,7 +2,7 @@
 void first(void)__attribute__((constructor));
 
 /**
- * before_main - executes before main does
+ * first - executes before main does
  */
 void first(void)
 {
