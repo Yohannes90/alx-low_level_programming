@@ -23,6 +23,6 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		}
 		in_decimal = in_decimal * 2 + (b[i] - '0');
-	}	        
+	}
 	return (in_decimal);
 }
