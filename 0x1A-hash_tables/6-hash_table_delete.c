@@ -8,7 +8,7 @@ void free_list(hash_node_t *head)
 {
 	hash_node_t *temp;
 
-	while (head != NULL)
+	while (head)
 	{
 		temp = head->next;
 		free(head->key);
